@@ -15,14 +15,13 @@ body {
 
 .story-title {
   font-family: 'Cinzel', serif;
-  font-size: 60px;
+  font-size: 50px;
   color: white;
   text-align: center;
   text-shadow:
     0 0 10px #f46d6d,
     0 0 20px #da3a3a,
     0 0 30px #e72a0d;
-  margin-bottom: 30px;
   letter-spacing: 3px;
 }
 
@@ -37,16 +36,6 @@ body {
   background: black;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .story-title {
-    font-size: 38px;
-  }
-
-  .story-video {
-    width: 95%;
-  }
-}
 .btn{
     padding: 12px 25px;
     margin-top: 1px;
