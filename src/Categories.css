@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+.categories-page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #020111, #191621);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.heading {
+  color: white;
+  font-size: 50px;
+  font-family: 'Cinzel', serif;
+  text-shadow: 0 0 10px #fff, 0 0 20px gold;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.categories-container {
+     
+   display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+      gap:20px;
+      margin-left:10px;
+      margin-right:10px;
+}
+.card-kids {
+    background-image: url("./images/kids.jpg");
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      height: 400px;
+      position:relative;
+      cursor:pointer;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.card-horror {
+    background-image: url("./images/horror.jpg");
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      height: 400px;
+      position:relative;
+      cursor:pointer;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.card-mystery {
+    background-image: url("./images/mystery.jpg");
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      height: 400px;
+      position:relative;
+      cursor:pointer;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.card-romantic {
+    background-image: url("./images/romantic.jpg");
+      background-size: cover;
+      object-fit: cover;
+      background-position: center;
+      height: 400px;
+      position:relative;
+      cursor:pointer;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.card-title {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    padding:200px 0;
+     text-shadow: 0 0 10px #fff, 0 0 20px gold;
+    font-size:30px;
+    font-family:'Cinzel', serif;
+}
+/* Stars */
+.stars, .stars2, .stars3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.stars {
+  background-image: radial-gradient(2px 2px at 20px 30px, white, transparent);
+  background-size: 200px 200px;
+  animation: twinkle 4s infinite alternate;
+}
+
+.stars2 {
+  background-image: radial-gradient(2px 2px at 100px 100px, gold, transparent);
+  background-size: 300px 300px;
+  animation: twinkle 6s infinite alternate;
+}
+
+.stars3 {
+  background-image: radial-gradient(2px 2px at 70px 80px, white, transparent);
+  background-size: 400px 400px;
+  animation: twinkle 8s infinite alternate;
+}
+
+@keyframes twinkle {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
