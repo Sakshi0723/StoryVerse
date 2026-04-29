@@ -26,6 +26,7 @@ body {
   z-index: 2;
 }
 
+
 #Name {
   color: white;
   font-size: 80px;
@@ -131,4 +132,18 @@ body {
   box-shadow: 
     0 0 15px rgba(255, 215, 0, 0.8),
     0 0 30px rgba(255, 215, 0, 0.6);
+}
+@media (max-width: 768px) {
+  #Name {
+    font-size: 40px;
+  }
+
+  #Tagline {
+    font-size: 20px;
+  }
+
+  .explore-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }

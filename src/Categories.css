@@ -121,3 +121,19 @@
     opacity: 1;
   }
 }
+@media (max-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+
+  .categories-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card-kids,
+  .card-horror,
+  .card-mystery,
+  .card-romantic {
+    height: 250px;
+  }
+}

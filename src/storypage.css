@@ -72,3 +72,12 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
     gap: 2px;
 }
+@media (max-width: 768px) {
+  .story-title {
+    font-size: 35px;
+  }
+
+  .story-video {
+    width: 95%;
+  }
+}
